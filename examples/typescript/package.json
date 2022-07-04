@@ -7,8 +7,8 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "webpubsub-js": "^7.0.0",
-    "webpubsub-react": "^3.0.0",
+    "webpubsub-js": "^1.0.2",
+    "webpubsub-react": "^1.0.2",
     "react-app-polyfill": "^1.0.0",
     "ts-invariant": "^0.4.4"
   },

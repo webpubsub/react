@@ -1,0 +1,11 @@
+{
+  "Demo": {
+    "keySet": {
+      "publishKey": "pub-c-deeb6f03-8193-4a34-b253-e89f915dc7b8",
+      "subscribeKey": "sub-c-e548adb7-3388-4d3a-8134-91d0130312e2",
+      "uuid": "uuid-123",
+      "origin": "localhost:11443",
+      "secure": false
+    }
+  }
+}

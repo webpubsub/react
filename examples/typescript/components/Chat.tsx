@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { useWebPubSub } from '../../../src/index';
+import { useWebPubSub } from 'webpubsub-react';
 
 function Chat() {
+  console.log('Chat')
   const webpubsub = useWebPubSub();
   const [channels] = useState(['awesome-channel']);
   const [messages, addMessage] = useState([]);
@@ -60,7 +61,7 @@ function Chat() {
               sendMessage(message);
             }}
           >
-            Send Message
+            发送消息
           </button>
         </div>
       </div>

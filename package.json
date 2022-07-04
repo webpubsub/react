@@ -1,6 +1,6 @@
 {
   "name": "webpubsub-react",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Publish & Subscribe Real-time Messaging with WebPubSub",
   "author": "WebPubSub <support@webpubsub.com>",
   "main": "dist/index.js",
@@ -33,8 +33,7 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "@types/webpubsub": "^7.0.0",
-    "webpubsub": "^7.0.1"
+    "webpubsub": "^1.0.2"
   },
   "husky": {
     "hooks": {
@@ -56,7 +55,7 @@
     "husky": "^3.0.2",
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1",
-    "webpubsub-js": "^7.0.1",
+    "webpubsub-js": "^1.0.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "tsdx": "^0.14.1",

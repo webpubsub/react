@@ -1,8 +1,7 @@
 import React from 'react';
 import invariant from 'ts-invariant';
-import WebPubSub from 'webpubsub';
+import WebPubSub from 'webpubsub-js';
 import { WebPubSubContext } from './WebPubSubContext';
-
 
 export interface WebPubSubConsumerProps {
   children: (client: WebPubSub) => React.ReactChild | null;

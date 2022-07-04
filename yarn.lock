@@ -7031,10 +7031,10 @@ webidl-conversions@^4.0.2:
   resolved "https://registry.npmmirror.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
   integrity sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==
 
-webpubsub-js@^7.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmmirror.com/webpubsub-js/-/webpubsub-js-1.0.1.tgz#9174e8b61baaaf3df2963e49f7be940c89422235"
-  integrity sha512-t5pzA61CNCeYnpJTkaNsgJmECH1AfxfE7XmAaZwMsiLsDR1J1UV1lCEuzPU/Uh8LKYjWHTVicIFm2vBpe8FOFg==
+webpubsub-js@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/webpubsub-js/-/webpubsub-js-1.0.2.tgz#bfe7480e08db6830dcf43543ce5f466d2cb2df25"
+  integrity sha512-VFftrjy8gfTF0T1i8msOLOpm6Mt0EufTlP5i1fYKp/BUnr2wTppky6B3FIT8A7S5Hf4GYuwMsmc+4UIjYMruOg==
   dependencies:
     agentkeepalive "^3.5.2"
     buffer "^6.0.3"
