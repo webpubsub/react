@@ -7,10 +7,8 @@ const webPubSubConfig = require('../config/webpubsub.json');
 const webPubSubClient = new WebPubSub(webPubSubConfig.Demo.keySet);
 
 function App() {
-  console.log('App')
   return (
     <WebPubSubProvider client={webPubSubClient}>
-      <h3>hello</h3>
       <Chat />
     </WebPubSubProvider>
   );

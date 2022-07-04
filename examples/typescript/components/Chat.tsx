@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useWebPubSub } from 'webpubsub-react';
 
 function Chat() {
-  console.log('Chat')
   const webpubsub = useWebPubSub();
   const [channels] = useState(['awesome-channel']);
   const [messages, addMessage] = useState([]);
